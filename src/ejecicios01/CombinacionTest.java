@@ -55,16 +55,9 @@ class CombinacionTest {
 
 	@Test
 	void testGenerarCombinacionRepetidas() {
-		List<?> asList1 = Arrays.asList(combinacion.getCadena());
-//		int[] cadena = new int[combinacion.getCadena().length];
-//		for (int i = 0; i < cadena.length; i++) {
-//			cadena[i]=combinacion.getCadena()[i];
-//		}
+		int[] cadena = combinacion.getCadena().clone();
 		combinacion.generarCombinacion();
-		List<?> asList2 = Arrays.asList(combinacion.getCadena());
-//		int[] cadena2 = combinacion.getCadena();
-//		assertNotEquals(cadena,cadena2);
-		assertNotEquals(asList1,asList2);
-		
+		int[] cadena2 = combinacion.getCadena();
+		assertFalse(Arrays.equals(cadena,cadena2));
 	}
 }
