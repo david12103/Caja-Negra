@@ -1,11 +1,10 @@
-package ejecicios;
+package ejecicios01;
 
 public class Combinacion {
 
 	int[] cadena;
 	int colors = 5;
 	int size = 5;
-
 	
 	public Combinacion() {
 		super();
@@ -14,7 +13,8 @@ public class Combinacion {
 
 	public void generarCombinacion() {
 		for (int i = 0; i < cadena.length; i++)
-			cadena[i] = (int) (Math.random() * colors) + 1;
+			cadena[i] = (int) (Math.random() * colors)+ 1;
+//		cadena=new int[] {1,2,3,4,5};
 	}
 
 	public int getColors() {

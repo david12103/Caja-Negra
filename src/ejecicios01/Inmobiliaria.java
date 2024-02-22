@@ -1,4 +1,4 @@
-package ejecicios;
+package ejecicios01;
 
 class Inmobiliaria {
 	// El valor por defecto de riesgo es 0
