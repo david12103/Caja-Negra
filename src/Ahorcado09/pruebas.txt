@@ -1,0 +1,17 @@
+    Prueba de inicio de un nuevo juego: Verificar que el juego se inicie correctamente con la 
+    palabra a adivinar y el número máximo de intentos especificados.
+
+    Prueba de adivinar una letra: Asegurarse de que se adivine correctamente una letra y que 
+    se actualice el estado de la palabra a adivinar.
+
+    Prueba de obtener el estado de la palabra: Verificar que se obtenga correctamente el estado 
+    actual de la palabra, incluyendo las letras adivinadas y los espacios en blanco.
+
+    Prueba de obtener los intentos restantes: Asegurarse de que se obtengan correctamente los intentos 
+    restantes después de cada intento de adivinanza.
+
+    Prueba de fin de juego: Verificar que el juego termine correctamente cuando se agoten 
+    los intentos o cuando se haya adivinado la palabra completa.
+
+    Prueba de victoria del juego: Asegurarse de que el juego se gane correctamente cuando 
+    se adivine la palabra completa.
